@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check your Weather</title>
+    <script src="https://kit.fontawesome.com/b386c439c5.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            /* flex-direction: column; */
+            align-items: center;
+            padding-top: 20px;
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,232,255,0.9126270707831325) 0%, rgba(0,212,255,1) 51%);
+        }
+        .weather{
+            border-radius: 20px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            padding: 30px;
+        }
+        .degree{
+            font-size: 60px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            margin-bottom: 60px;
+        }
+        .cloud {
+            font-size: 60px;
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+            color: hsla(207, 39%, 95%, 0.848);
+            padding-bottom: 8px;
+        }
+        .date{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .weather p{
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather">
+        <div class="degree">28</div>
+        <i class="fa-solid fa-cloud cloud"></i>
+        <p><i class="fa-solid fa-location-dot"></i> Tan-Tan</p>
+        <div class="date">
+            <span>01/05/24</span>
+            <span>14:42  <i class="fa-solid fa-rotate-right"></i></span>
+        </div>
+        
+    </div>
+</body>
+</html>
