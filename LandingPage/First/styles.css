@@ -130,10 +130,137 @@ header h1 {
     width: 100%;
     border-right: 8px solid #2E2925;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
 }
 
 .aboutContent {
     width: 40%;
     padding: 20px;
 }
+
+/* menu section  */
+
+.menu {
+    width: 100%;
+    background-color: #D2C7B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #665346;
+}
+
+.menuList {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.menuList img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.menuBtns {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuBtns button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #D2C7B8;
+    color: #2E2925;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.menuBtns button a {
+    text-decoration: none;
+    color: #2E2925;
+}
+
+/* contact section  */
+
+
+.contact {
+    width: 100%;
+    background-color: #D2C7B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact h1 {
+    color: #2E2925;
+    font-size: 40px;
+}
+
+.contactInfo {
+    width: 90%;
+    background-color: #D2C7B8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 20px;
+}
+
+.contactForm label {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contactForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.contactNekoInfo {
+    width: 40%;
+    padding: 20px;
+}
+
+
+/* footer section  */
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #D2C7B8;
+    font-size: 20px;
+}
+
+
 
